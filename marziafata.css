@@ -162,3 +162,31 @@
     80% {left: calc(100% - 60px)}
     100% {left: 20%}
 }
+
+/* esercizio 13 */
+
+.ex-13-bottom-white {
+    animation-name: mi-giro;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mi-giro {
+    0% {right: 20%; bottom: -10px;}
+    50% {right: calc(100% - 40px); bottom: -10px;}
+    100% {right: calc(100% - 40px); bottom: 40px;}
+}
+
+.ex-13-top-white {
+    animation-name: mi-giro-2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mi-giro-2 {
+    0% {left: 20%; top: -10px;}
+    50% {left: 100%; top: -10px;}
+    100% {left: 100%; top: 50px;}
+}
