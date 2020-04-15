@@ -1,0 +1,103 @@
+/* esercizio 1 */
+
+.ex-1-square {
+    transition: background 4s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* esercizio 2 */
+
+.ex-2-square:active {
+    animation-name: mi-allungo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mi-allungo {
+    0% {width: 100px;}
+    100% {width: 100%;}
+}
+
+/* esercizio 3 */
+
+.ex-3-square:hover {
+    animation-name: mi-arrotondo;
+    animation-duration: 1s;
+}
+
+@keyframes mi-arrotondo {
+    0% {border-radius: 0;}
+    100% {border-radius: 100%;}
+}
+
+/* esercizio 4 */
+
+.ex-4-square {
+    transition: 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* esercizio 5 */
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.ex-5-square:active {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+/* esercizio 6 */
+
+
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+}
+
+/* esercizio 8 */
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(120deg);
+    border-radius: 15px;
+}
+
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: 1s;
+}
+
+.ex-9-img:hover {
+    filter: hue-rotate(120deg);
+    border-radius: 15px;
+    transform: scale(1.5);
+}
