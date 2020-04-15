@@ -101,3 +101,34 @@
     border-radius: 15px;
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+
+.ex-10-icon {
+    animation-name: sto-caricando;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes sto-caricando {
+    0% {transform: rotate(0);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: sto-caricando-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes sto-caricando-2 {
+    0% {transform: rotate(0);}
+    50% {transform: rotate(270deg);}
+    100% {transform: rotate(0);}
+}
